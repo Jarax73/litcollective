@@ -1,0 +1,247 @@
+body{
+    margin: 0;
+    display: grid;
+    background-color: black;
+    color: white;
+    /* grid-template-columns: 10% 40% 40% 10%; */
+    gap: 10px;
+    grid-template-rows: 100px auto 50% 45% 46% 325px;
+    border: 1px solid black;
+}
+
+/* section{
+    width: 100%; 
+    border: 1px solid blue;
+    display: grid;
+    grid-template-rows: 100px auto auto 100px ;
+} */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+header p{
+    flex: 1;
+    width: 45px;
+}
+
+header nav{
+    flex: 2;
+
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+header a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.second{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.second h1{
+    font-size: 72px;
+    width: 50%;
+}
+
+.second div{
+    display: flex;
+    gap: 70px;
+}
+
+button{
+    border: 1px solid white;
+    height: 70px;
+    width: 10%;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
+
+.third{
+    display: flex;
+    width: 100%;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding-bottom: 200px;
+}
+
+.left{
+    margin-top: 10%;
+}
+
+.center{
+    align-self: center;
+}
+
+.right{
+    align-self: flex-end;
+    margin-bottom: 10%;
+}
+
+.fourth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 20%; */
+    height: 100%;
+}
+
+.partners{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    width: 100%;
+    height: 70%;
+}
+
+.partners div{
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.button_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.fifth{
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.image_container{
+    position: absolute;
+    margin:0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    width: 50%;
+}
+
+.image_container img{
+    z-index: 0;
+    width: 100%;
+}
+
+.academy_image{
+    position: absolute;
+    margin:0;
+    padding: 0;
+    width: 50%;
+    top: 0;
+    right: 0;
+}
+
+.academy_image img{
+    width: 100%;
+    opacity: 0.5;
+}
+
+.academy_description{
+    z-index: 2;
+    position: absolute;
+    right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 3%;
+}
+
+.description{
+    position: absolute;
+    left: 5%;
+    bottom: 4%;
+    
+}
+
+.description p, .academy_description p{
+    color: white;
+    font-size: 36px;
+    width: 55%;
+    z-index: 2;
+}
+
+.about_btn{
+    background-color: #3549CB;
+    width: 20%;
+    border: none;
+}
+
+.academy_btn{
+    border: 1px solid white;
+    width: 20%;
+    background: none;
+    align-self: flex-end;
+}
+
+.academy_description h2{
+    display: flex;
+    align-items: center;
+    font-size: 46px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.sixth{
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_btn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.left_footer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.left_footer h1{
+    font-size: 40px;
+    width: 60%;
+}
+
+.right_footer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 200px;
+}
+
+.fabric{
+    display: flex;
+    gap: 20px;
+}
