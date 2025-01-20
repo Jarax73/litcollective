@@ -3,8 +3,7 @@ body{
     display: grid;
     background-color: black;
     color: white;
-    grid-template-rows: 100px auto 50% 45% 40.4% 500px;
-    border: 1px solid black;
+    grid-template-rows: 100px auto 50% 45% 42.2% 500px;
 }
 
 /* section{
@@ -72,11 +71,11 @@ button{
     width: 100%;
     /* align-items: center; */
     justify-content: space-between;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 
 .left{
-    margin-top: 10%;
+    margin-top: 12%;
 }
 
 .center{
@@ -85,7 +84,7 @@ button{
 
 .right{
     align-self: flex-end;
-    margin-bottom: 10%;
+    margin-bottom: 12%;
 }
 
 .fourth{
@@ -131,12 +130,13 @@ button{
     left: 0;
     top: 0;
     width: 50%;
+    z-index: 0;
 }
 
-.image_container img{
+/* .image_container img{
     z-index: 0;
     width: 100%;
-}
+} */
 
 .academy_image{
     position: absolute;
@@ -145,12 +145,13 @@ button{
     width: 50%;
     top: 0;
     right: 0;
-}
-
-.academy_image img{
-    width: 100%;
     opacity: 0.5;
 }
+
+/* .academy_image img{
+    width: 100%;
+    opacity: 0.5;
+} */
 
 .academy_description{
     z-index: 2;
@@ -165,15 +166,15 @@ button{
 .description{
     position: absolute;
     left: 5%;
-    bottom: 4%;
-    
+    bottom: 10%;
+    margin-top: -22%;
+    z-index: 2;
 }
 
 .description p, .academy_description p{
     color: white;
     font-size: 36px;
     width: 55%;
-    z-index: 2;
 }
 
 .about_btn{
@@ -183,7 +184,6 @@ button{
 }
 
 .academy_btn{
-    border: 1px solid white;
     width: 20%;
     background: none;
     align-self: flex-end;

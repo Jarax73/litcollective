@@ -1,0 +1,117 @@
+@media screen and (max-width: 1023px){
+    body{
+        grid-template-rows: 100px auto 28% 35% auto auto;
+    }
+
+    header{
+        padding-left: 5%;
+        padding-right: 5%;
+        /* width: 60%; */
+        /* justify-content: center; */
+    }
+    header p{
+        flex: none;
+    }
+    header nav{
+        flex: 1;
+        width: 50%;
+    }
+    header ul{
+        justify-content: flex-end;
+        width: 100%;
+        gap: 20px;
+    }
+    .second{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .second h1{
+        font-size: 60px;
+        width: 70%;
+    }
+    .second div{
+        gap: 40px;
+    }
+    button{
+        width: 20%;
+        font-size: 14px;
+    }
+    .third{
+        padding-bottom: 100px;
+    }
+    .left{
+        width: 20%;
+    }
+    .left img{
+        width: 100%;
+    }
+    .center{
+        width: 60%;
+    }
+    .center img{
+        width: 100%;
+    }
+    .right{
+        width: 20%;
+    }
+    .right img{
+        width: 100%;
+    }
+    .academy_description{
+        top: 0;
+        right: 0;
+        width: 42%;
+        padding-right: 5%;
+    }
+    .description p, .academy_description p{
+        font-size: 26px;
+        width: 70%;
+        z-index: 2;
+    }
+    .academy_description h2{
+        font-size: 32px;
+    }
+    .academy_btn{
+        width: 30%;
+    }
+    .image_container, .academy_image{
+        position: relative;
+        width: 100%;
+    }
+    .about, .academy{
+        flex: 1;
+    }
+    .sixth{
+        height: 400px;
+    }
+    .left_footer{
+        height: 180px;
+    }
+    .left_footer h1{
+        font-size: 26px;
+        width: 80%;
+    }
+    .right_footer{
+        height: 180px;
+    }
+    .hand_direction{
+        position: absolute;
+        right: 0;
+        padding: 0;
+        margin-top: 0;
+        margin-right: 10.5%;
+        display: flex;
+        height: 100%;
+    }
+    
+    .top{
+        height: 50%;
+        margin-top: 0;
+    }
+    
+    .down{
+        height: 50%;
+        align-self: flex-end;
+    }
+}
+
