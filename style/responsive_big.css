@@ -84,7 +84,6 @@
     }
     .left_footer, .right_footer{
         height: 180px;
-        border: 1px solid blue;
         flex: 1;
     }
     .left_footer h1{
