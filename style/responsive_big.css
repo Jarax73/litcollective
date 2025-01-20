@@ -1,4 +1,4 @@
-@media screen and (max-width: 1023px){
+@media screen and (min-width: 768px) and (max-width: 1023px){
     body{
         grid-template-rows: 100px auto 28% 35% auto auto;
     }
@@ -6,8 +6,6 @@
     header{
         padding-left: 5%;
         padding-right: 5%;
-        /* width: 60%; */
-        /* justify-content: center; */
     }
     header p{
         flex: none;
@@ -84,16 +82,16 @@
     .sixth{
         height: 400px;
     }
-    .left_footer{
+    .left_footer, .right_footer{
         height: 180px;
+        border: 1px solid blue;
+        flex: 1;
     }
     .left_footer h1{
         font-size: 26px;
-        width: 80%;
+        width: 100%;
     }
-    .right_footer{
-        height: 180px;
-    }
+    
     .hand_direction{
         position: absolute;
         width: 50%;

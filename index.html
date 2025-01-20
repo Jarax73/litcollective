@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css" >
     <link rel="stylesheet" href="./style/responsive_big.css" >
+    <link rel="stylesheet" href="./style/smartphone.css" >
     <title>Lit Collective</title>
 </head>
 <body>
@@ -12,7 +13,13 @@
         <p>
             <img src="./images/litcollectivelogo.png" alt=""/>
         </p>
-        <nav>
+        <div id="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <nav id="menu">
+            <p id="close">X</p>
             <ul>
                 <li><a href="#">home</a></li>
                 <li><a href="#">cases studies</a></li>
@@ -92,7 +99,7 @@
             </div>
             <div class="right_footer">
                 <div class="footer_btn">
-                    <button type="button" class="academy_btn" style="width: 30%;">Talk to specialist</button>
+                    <button type="button" class="academy_btn" >Talk to specialist</button>
                     <button type="button" class="about_btn" >Get in touch</button>
                 </div>
                 <div class="fabric">
@@ -109,6 +116,20 @@
             </div>
         </div>
     <!-- </section> -->
+    <script>
+        let hamburger = document.getElementById("hamburger");
+        let close = document.getElementById("close");
+        let menu = document.getElementById("menu");
 
+        hamburger.addEventListener('click', function(){
+            menu.style.display = "flex";
+            hamburger.style.display="none"
+        });
+
+        close.addEventListener('click', function(){
+            hamburger.style.display = "flex";
+            menu.style.display = "none";
+        });
+    </script>
 </body>
 </html>
